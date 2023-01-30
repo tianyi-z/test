@@ -1,0 +1,19 @@
+{
+    "name": "ty13/json-rpc-test",
+    "description": "json-rpc-test",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Ty13\\JsonRpcTest\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "require": {},
+    "extra": {
+        "hyperf": {
+            "config": "Ty13\\JsonRpcTest\\ConfigProvider"
+        }
+    }
+}
